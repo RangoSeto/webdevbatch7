@@ -1,0 +1,72 @@
+ssh-keygen
+
+enter first
+
+and then enter
+
+and then enter
+
+and then enter
+
+ssh key ကို ထပ်ထုတ်မယ်ဆိုရင် ထပ်စမ်းမယ်ဆိုရင်
+တစ်ခါထုတ်ပြီး မိနစ်၂၀
+
+command line for git
+
+ git--version
+
+git config --global user.name "Rango"
+
+git config user.name
+
+git config --global user.email "hsuphyowai.mtla@gmail.com"     [github email]
+
+git config user.email
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+git installing for project in that place
+
+
+open git hub cmd
+ git init
+git remote add origin git@github.com:RangoSeto/pttsoftware.git
+git status 
+
+and then enter
+
+and then enter
+
+ssh key ကို ထပ်ထုတ်မယ်ဆိုရင် ထပ်စမ်းမယ်ဆိုရင်
+တစ်ခါထုတ်ပြီး မိနစ်၂၀
+
+command line for git
+
+ git--version
+
+git config --global user.name "Win"
+
+git config --global user.email 'winhtetmgmg555@gmail.com'
+
+git config user.email
+
+
+git installing for project in that place
+
+
+open git hub cmd
+ git init
+
+git remote add origin git@github.com:winhtetmgmg555/ptt-software-company-ltd.git
+
+this is for un uploaded file
+git status
+
+adding files 
+git add -A
+
+before uploading file to github
+
+git commit -m ' name '
+
+For uploading to github
+git push -u origin master

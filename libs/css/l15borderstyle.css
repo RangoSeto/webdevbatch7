@@ -1,0 +1,101 @@
+.bdstyle1{
+	border-style: solid;
+}
+
+.bdstyle2{
+	border-style: double;
+}
+
+.bdstyle3{
+	border-style: dotted;
+}
+
+.bdstyle4{
+	border-style: dashed;
+}
+
+.bdstyle5{
+	border-style: inset;
+}
+
+.bdstyle6{
+	border-style: outset;
+}
+
+.boderdesign{
+	width: 300px;
+	height: 300px;
+	background-color: orange;
+	/*background: yellow;*/
+
+	/*border-radius: 50px;*/
+
+	/*border-radius: 100%;*/
+	/*border-radius: 50%;*/
+
+			/*leftup rightup rightdown leftdown *//*clockwise*/
+	border-radius: 50px 20px 50px 100px;
+
+			/*s s c*/ /*stroke style color*/
+	border: 3px dashed red;
+	/*border: 3px dashed #1d5cc2;*/
+	/*border: 3px dashed rgba(33,214,127,1);*/
+}
+
+li{
+	/*list-style-type: circle;*/
+	/*list-style-type: square;*/
+	/*list-style-type: decimal;*/
+	list-style-type: decimal-leading-zero;
+
+	/*list-style-type: none;*/
+	/*list-style: none;*/
+
+	/*border: 1px solid orange;*/
+	border: 1px;
+	border-style: solid;
+	border-color: orange;
+
+	list-style-position: inside;
+	/*list-style-position: outside;*/
+
+}
+
+
+/*Attribute Selector*/
+/*array = []
+function = name()*/
+input[type="text"]{
+	background-color: green;
+	width: 300px;
+	border-radius: 30px;
+	color: #fff;
+}
+
+input[type="password"]{
+	background-color: silver;
+	width: 300px;
+	boder-radius: 30px;
+}
+
+/*background-position*/
+
+body{
+	background-image: url('./../img/icon/icon1.png');
+	/*background-repeat: repeat;*/
+	background-repeat: no-repeat;
+
+	/*background-position: center;*/
+	/*background-position: left;*/
+	/*background-position: right;*/
+	/*background-position: top;*/
+	/*background-position: bottom;*/
+
+	/*background-position: right top;*/
+	/*background-position: left top;*/
+	/*background-position: right bottom;*/
+	background-position: left bottom;
+
+	/*background-attachment: scroll;*/
+	/*background-attachment: fixed;*/
+}

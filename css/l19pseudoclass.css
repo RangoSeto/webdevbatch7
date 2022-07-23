@@ -1,0 +1,85 @@
+/*Pseudoclass (:)*/
+
+.div1{
+	width: 300px;
+	height: 100px;
+	background-color: green;
+}
+
+/*.div1:first-child{
+	background-color: red;
+	color: white;
+	border-radius: 20px;
+}
+*/
+
+/*.div1:first-of-type{
+	background-color: blue;
+	color: white;
+}
+*/
+
+/*.div1:last-child{
+	background-color: red;
+	color: white;
+}*/
+
+/*.div1:last-of-type{
+	background-color: blue;
+	color: white;
+}*/
+
+/*.div1:nth-child(2){
+	background-color: orange;
+}*/
+/*.div1:nth-child(odd){
+	background-color: purple;
+}*/
+
+/*.div1:nth-child(even){
+	background-color: purple;
+}*/
+/*.div1:nth-of-type(odd){
+	background-color: purple;
+}*/
+/*.div1:nth-of-type(even){
+	background-color: purple;
+}*/
+/*.div1:hover{
+	cursor: pointer;
+	background-color: orange;
+}*/
+
+		/*Child and Type*/
+
+/*.div1:first-child{
+	background-color: red;
+	color: white;
+}*/
+
+/*.div1:first-of-type{
+	background-color: red;
+	color: white;
+}*/
+
+/*.div1:last-child{
+	background-color: red;
+	color: white;
+}*/
+
+/*.div1:last-of-type{
+	background-color: red;
+	color: white;
+}*/
+
+/*.div1:nth-child(odd){
+	background-color: red;
+	color: white;
+}
+
+
+.div1:nth-of-type(odd){
+	background-color: red;
+	color: white;
+}*/
+

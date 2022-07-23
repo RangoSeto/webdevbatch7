@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+:root{
+    --primary-color: hsl(330, 87%, 17%);
+    --secondary-color: hsl(203, 100%, 13%, 1);
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Start Header Section */
+
+/* Start nav bar */
+.navbar{
+    background: linear-gradient(
+        rgba(0,0,0,0.3),
+        var(--secondary-color)
+    );
+    font-size: 12px;
+    padding: 20px 30px;
+
+    transition: all .5s;
+}
+
+.navsmall{
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        var(--secondary-color)
+    );
+    padding:5px 30px;
+}
+
+
+.menuitems{
+    color: #eee;
+    letter-spacing: 1px;
+    padding: 5px 30px;
+}
+
+.menuitems:hover{
+    color: #1aaee8;
+}
+
+.lines1,.lines2,.lines3{
+    width: 20px;
+    height: 3px;
+    margin: 6px;
+
+    transition: all .5s;
+}
+
+.crossxs .lines1{
+    transform: rotate(-45deg) translate(-6px,6px);
+}
+.crossxs .lines2{
+    opacity:0;
+}
+.crossxs .lines3{
+    transform: rotate(45deg) translate(-6px,-6px);
+}
+
+/* End nav bar */
+
+header{
+    height:100vh;
+    background:linear-gradient(
+        30deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0.5)
+    ),url(../assets/img/banner/banner2.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    position: relative;
+}
+
+.banners{
+    width: 90%;
+    position: absolute;
+    left:50%;
+    top:50%;
+
+    transform: translate(-50%,-50%);
+
+}
+
+.bannerheaders{
+    animation-name: banani;
+    animation-duration: 1s;
+}
+.bannerparas{
+    animation-name: banani;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+}
+
+
+@keyframes banani{
+    0%{
+        transform: translateX(-20px);
+        opacity: 0;
+    }100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* End Header Section */
+
+/* Start Aboutus Section */
+
+.aboutuss{
+    background:linear-gradient(
+        30deg,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.5)
+    ),url(../assets/img/banner/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    position: relative;
+
+}
+
+.line1{
+    width: 150px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 3px;
+}
+.line2{
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 3px;
+}
+.line3{
+    width: 80px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.box{
+    background-color: #fff;
+    border-left: 3px solid red;
+}
+
+.aboutuss img{
+    position: absolute;
+    bottom: 0;
+}
+
+/* End Aboutus Section */
+
+/* Start Properties Section */
+.properties{
+    padding: 8px 20px;
+    display: inline-block;
+    position: relative;
+}
+.properties::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-left: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+.properties::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-right: 3px solid var(--primary-color);
+    border-top: 3px solid var(--primary-color);
+
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+.propertylists{
+    color: #777;
+    cursor: pointer;
+}
+.activeitems{
+    color: var(--primary-color);
+}
+
+/* End Properties Section */

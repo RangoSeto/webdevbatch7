@@ -1,0 +1,99 @@
+.firstdiv{
+	width: 200px;
+	height: 200px;
+	/*background-color: green;
+*/	
+	/*background-color:#ab65c9;*/
+	/*background-color: rgba(229,69,127,1.00);*/
+
+	background: green;
+	background:#ab65c9;
+	background: rgba(229,69,127,1.00);
+	color: white;
+	font-size: 20px;
+}
+
+.seconddiv{
+	width: 300px ;
+	height: 300px;
+	/*background-image:url('../img/cover/bg1.jpg');*/
+	background:url('../img/cover/bg1.jpg');
+
+
+	/*can't*/
+	/*background-color:url('../img/cover/bg1.jpg');*/
+	background-repeat: no-repeat;
+	/*background-repeat: repeat;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;*/
+
+	background-position: center;
+
+	border: 1px solid green;
+
+	color: white;
+}
+
+
+.divthree{
+	width: 300px;
+	height: 300px;
+	border: 2px solid red;
+
+
+	/*can't*/
+	/*background-color: linear-gradient(red,orange);*/
+
+	/*can*/
+	/*background-image: linear-gradient(red,orange);
+*/
+
+	/*background: linear-gradient(red,orange);
+	background: linear-gradient(red,orange);*/
+
+	/*background: linear-gradient(#ab65c9,#13f2d1);
+	background: linear-gradient(rgba(226,131,127,1.00),rgba(84,129,127,0.73));
+*/		
+
+	/*background:linear-gradient(
+		red,
+		#13f2d1,
+		rgba(226,131,127,1.00)
+		);
+*/
+		/*background:radial-gradient(yellow,purple);
+		background:radial-gradient(#ab65c9,#13f2d1);*/
+		background:radial-gradient(rgba(226,131,127,1.00),rgba(145,51,127,0.69));
+}
+
+.divfour{
+	width: 200px;
+	height: 300px;
+	border:2px solid green;
+	color: white;
+
+	/*background-image: linear-gradient(rgba(226,131,127,0.2),rgba(84,129,127,0.73)),url('../img/cover/bg2.jpg');*/
+	/*background: linear-gradient(rgba(226,131,127,0.2),rgba(84,129,127,0.73)),url('../img/cover/bg2.jpg');*/
+	
+	/*background-image:linear-gradient(
+		-45deg,
+		rgba(226,131,127,0),
+		rgba(84,129,127,0.73)),url('../img/cover/bg2.jpg');*/
+
+
+	background-repeat: no-repeat;
+
+
+	/*background:linear-gradient(
+		-45deg,
+		red,
+		orange,
+		blue;*/
+
+		background: linear-gradient(
+			-45deg,
+			red,
+			orange,
+			blue
+			);
+}

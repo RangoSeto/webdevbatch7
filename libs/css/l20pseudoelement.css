@@ -1,0 +1,30 @@
+/*.paragraph::first-line{
+	color: red;
+	font-size: 20px;
+}*/
+/*ပထမဆုံးစာကြောင်းကပြောင်း*/
+
+
+/*.paragraph::first-letter{
+	color: red;
+	font-size: 40px;
+}*/
+/*ပထမဆုံးစာလုံးပြောင်း*/
+
+
+.paragraph::selection{
+	background-color: orange;
+	color: #000;
+	text-decoration:underline;
+}
+/*select ဆွဲတဲ့အခါပြောင်း*/
+
+.paragraph::before{
+	content: "ABC";
+	font-size: 40px;
+}
+
+.paragraph::after{
+	content: "Hello";
+	font-size: 40px;
+}

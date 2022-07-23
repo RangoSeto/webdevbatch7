@@ -1,0 +1,115 @@
+/*1. Local Font Integrate*/
+ 	/*i. Local Machine Integrate
+ 	ii. Project Folder Integrate
+*/
+/*.p1{
+	font-family:"Great Vibes" ;
+	font-family: Arial;
+}*/
+
+/*.p2{
+	font-family: Century,Arial,"Time New Roman";
+}*/
+
+/*act-rules*/
+
+/*for=stick*/
+@font-face{
+	font-family: Stick;
+	src: local('Stick-Regular'),url('../libs/fonts/stick/Stick-Regular.ttf') format('woff');
+}
+
+.p1{
+	font-family: 'Stick', sans-serif;
+}
+
+/*for=akaya*/
+@font-face{
+	font-family:'abc';
+	src: local('AkayaTelivigala-Regular'),url('../libs/fonts/akayatelivigala/AkayaTelivigala-Regular.ttf') format('woff');
+}
+
+.p2, .p3{
+	font-family: abc;
+}
+/*2. Global Font Integrate*/
+
+/*body{
+	font-family: 'Stick', sans-serif;
+	
+}*/
+
+/*.p1{
+	font-family: 'Stick', sans-serif; 
+}
+
+.p2{
+	font-family: 'Stick', sans-serif; 
+}
+
+.p3{
+	font-family: 'Akaya Kanadaka', cursive;
+}*/
+
+.p4{
+	font-family: Arial,Century;
+	/*font-weight: bold;*/
+	/*font-weight: bolder;*/
+	/*bold = bolder*/
+
+
+	/*100 to 900 ga arimasu*/
+	/*font-weight: 600;*/
+
+	/*font-style: italic;*/
+
+	/*text-transform: uppercase;
+	text-transform: lowercase;*/
+	/*text-transform: capitalize;*/
+
+	text-indent: 50px;
+
+}
+
+.clickme{
+	text-decoration: none;
+	color: red;
+}
+
+.clickme:visited{
+	color:green;
+}
+
+.clickme:hover{
+	color: red;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.menutext{
+
+	font-family: Cambria;
+	text-decoration: none;
+	background-color: green;
+	color: white;
+
+	/*padding: 10px;*/
+
+	/*top&bottom  left&right*/
+	/*padding: 10px 30px;*/
+
+		/*top right bottom left*/ /*clockwise*/
+	/*padding: 10px 20px 30px 40px;*/
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	border-radius: 10px;
+}
+
+.menutext:hover{
+	background-color: orange;
+	color: black;
+}
